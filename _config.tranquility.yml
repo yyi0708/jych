@@ -1,14 +1,14 @@
 slogan: “你如果过于追求完美，将永远无法感到满足（完美主义陷阱）。准备差不多了，就去做吧！”
 email: 1315474340@qq.com
-logo: "/images/logo.svg"
+logo: "/assets/heart.svg"
 
 mathjax: false # 加载 LateX 数学公式库
 
 favicon: # 配置网页图标
-  small: /images/favicon-16x16.png
-  medium: /images/favicon-32x32.png
-  apple_touch_icon: /images/apple-touch-icon.png
-  safari_pinned_tab: /images/logo.svg
+  small: /assets/heart.png
+  medium: /assets/heart.png
+  apple_touch_icon: /assets/heart.png
+  safari_pinned_tab: /assets/heart.svg
 
 subpage: # 开启“子页”功能，详见 README
   enable: true
@@ -37,7 +37,7 @@ index: # 配置首页个性化内容
   poem:
     - 长风破浪会有时
     - 直挂云帆济沧海！
-  photo: /images/about.jpg
+  photo: /assets/about.png
   about:
     title: 我
     text:
@@ -69,12 +69,12 @@ reward: # 赞赏
 # see https://github.com/gitalk/gitalk
 gitalk: # gitalk 评论
   enable: true
-  owner: # MUST HAVE, Your Github Username
+  owner: yyi0708 # MUST HAVE, Your Github Username
   admin:
-  repo: # MUST HAVE, The name of the repo you use to store Gitment comments
-  clientID: # MUST HAVE, Github client id for the Gitment
-  clientSecret: # EITHER this or proxy_gateway, Github access secret token for the Gitment
-
+    - yi.yang
+  repo: https://github.com/yyi0708/jych # MUST HAVE, The name of the repo you use to store Gitment comments
+  clientID: Ov23lidUvYck0hXEMjzo # MUST HAVE, Github client id for the Gitment
+  clientSecret: 570244efcc0d92591afc01388b108e021ad4ce5e # EITHER this or proxy_gateway, Github access secret token for the Gitment
   distractionFreeMode: false # Facebook-like distraction free mode
   # When the official proxy is not available, you can change it to your own proxy address
   proxy: https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token # This is official proxy adress
@@ -150,7 +150,7 @@ mermaid:
     startOnload: true
 
 cv:
-  enable: true
+  enable: false
   showInNav: true
   iconPrefix: fas
   keywords: 简历,李白
