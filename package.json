@@ -2,6 +2,8 @@
   "name": "hexo-site",
   "version": "0.0.0",
   "private": true,
+  "homepage": "https://yyi0708.github.io/jych/",
+  "author": "yi.yang",
   "scripts": {
     "build": "hexo clean && hexo generate",
     "clean": "hexo clean",
