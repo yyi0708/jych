@@ -1,0 +1,220 @@
+slogan: “你如果过于追求完美，将永远无法感到满足（完美主义陷阱）。准备差不多了，就去做吧！”
+email: 1315474340@qq.com
+logo: "/images/logo.svg"
+
+mathjax: false # 加载 LateX 数学公式库
+
+favicon: # 配置网页图标
+  small: /images/favicon-16x16.png
+  medium: /images/favicon-32x32.png
+  apple_touch_icon: /images/apple-touch-icon.png
+  safari_pinned_tab: /images/logo.svg
+
+subpage: # 开启“子页”功能，详见 README
+  enable: true
+  pages:
+    - name: developer # 文章的分类（category）名，如 developer
+      path: developer # 若不设置则默认使用 name
+      title: 技术 # 菜单名，如 开发者
+      icon: /images/icon/icon-code.svg # 图标的路径
+      description: 前端、后端、模块技术的思想了解、实践 # 描述
+    - name: project # 文章的分类（category）名，如 developer
+      path: project # 若不设置则默认使用 name
+      title: 项目 # 菜单名，如 开发者
+      icon: /images/icon/icon-pi.svg # 图标的路径
+      description: 效能工具、有趣项目，评估可行性，有用就干起来！ # 描述
+    - name: essay # 文章的分类（category）名，如 developer
+      path: essay # 若不设置则默认使用 name
+      title: 随记 # 菜单名，如 开发者
+      icon: /images/icon/icon-blog.svg # 图标的路径
+      description: 认知、思维、读书、写作 # 描述
+
+
+
+
+index: # 配置首页个性化内容
+  motto: "尽人事，听天命！"
+  poem:
+    - 长风破浪会有时
+    - 直挂云帆济沧海！
+  photo: /images/about.jpg
+  about:
+    title: 我
+    text:
+      - 宛如星辰中一颗微芒，期待绽放自己的光芒
+      - 
+      - 世界上最重要的事就是认识自我
+
+foot:
+  title:
+    - "宁静淡泊"
+    - "静若空明"
+
+links: # 朋友
+  # - name: "Theme Tranquility"
+  #   url: https://github.com/hooozen/hexo-theme-tranquility
+
+social:
+  - name: "yyi0708"
+    icon: "/images/logo-github.svg"
+    url: https://github.com/yyi0708
+
+reward: # 赞赏
+  enable: true
+  face: /assets/profile.jpg # 头像图片
+  paycode: /assets/pay-code.jpg # 支付码图片
+  text: “给作者未来买个灯泡💡”
+  btnText: 作者有点东西
+
+# see https://github.com/gitalk/gitalk
+gitalk: # gitalk 评论
+  enable: true
+  owner: # MUST HAVE, Your Github Username
+  admin:
+  repo: # MUST HAVE, The name of the repo you use to store Gitment comments
+  clientID: # MUST HAVE, Github client id for the Gitment
+  clientSecret: # EITHER this or proxy_gateway, Github access secret token for the Gitment
+
+  distractionFreeMode: false # Facebook-like distraction free mode
+  # When the official proxy is not available, you can change it to your own proxy address
+  proxy: https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token # This is official proxy adress
+  # Gitalk's display language depends on user's browser or system environment
+  # If you want everyone visiting your site to see a uniform language, you can set a force language value
+  # Available values: en | es-ES | fr | ru | zh-CN | zh-TW
+  language: zh-CN
+
+# see https://github.com/tea3/hexo-related-popular-posts
+related_post:
+  enable: true
+  config:
+    maxCount: 5 # Maximum count of a list. default 5
+    ulClass: # Class name of element. deafult 'popular-posts'
+    PPMixingRate: 0.4 # Mixing ratio of popular posts and related posts. default 0.0(=Related posts only)
+    isDate: # visible the date. false
+    isImage: # visible the image. false
+    isExcerpt: # visible the excerpt. false
+    PPCategoryFilter: # Option to fix category on Popular Posts. undefined
+    PPTagFilter: # Option to fix tag on Popular Posts. undefined
+
+# Baidu Webmaster tools verification.
+# See: https://ziyuan.baidu.com/site
+baidu_site_verification:
+
+# Baidu Analytics
+# See: https://tongji.baidu.com
+baidu_analytics: # <app_id>
+
+# 自定义字体，用于美化部分汉字的显示效果.
+# 可以通过替换 _font/ 目录下的字体文件替换自己喜欢的字体
+zh_font:
+  enable: true
+  fontName: sourceHanSerif
+  type: ttf
+  style:
+    - normal
+    - bold
+
+
+# 标签云
+tagcloud:
+  fancy: false
+  min_font: 14
+  max_font: 30
+
+# 配置时间线 参考 README.md
+timeline:
+  enable: true
+  order: false # 是否按时间正序展示，false 为倒序
+  items:
+    - name: front-end
+      color: "#ee936c"
+      icon: /images/icon/icon-article.svg
+      checked: true
+    - name: back-end
+      color: "#60a465"
+      icon: /images/icon/icon-app.svg
+      checked: true
+    - name: project
+      color: "#e0f2f0"
+      icon: /images/icon/icon-app.svg
+      checked: false
+    - name: life
+      color: "#568dc4"
+      icon: /images/icon/icon-event.svg
+      checked: true
+
+mermaid:
+  enable: true # 启用 Mermaid 增强
+  version: latest
+  options:
+    startOnload: true
+
+cv:
+  enable: true
+  showInNav: true
+  iconPrefix: fas
+  keywords: 简历,李白
+  description: 李白的简历
+  title: 李白的简历
+  content:
+    title: 李白
+    baseInfo:
+      - 唐朝
+      - 诗人
+      - 太白
+      - 青莲居士
+    tel: 八八八八八
+    email: 1315474340@qq.com
+    github: 暂无
+    blog: Tranquility
+    blogHref: https://theme.hozen.site/tranquility/
+    edu:
+      title: "教育背景"
+      content:
+        - 701 至 715，修习诗词剑术
+        - 718 至 724，蜀地隐居
+    chapters:
+      - title: "代表作品"
+        icon: person-digging
+        tips: 请点击项目名称查看项目详情
+        sections:
+          - title: 蜀道难
+            link: https://so.gushiwen.cn/shiwenv_d59ec5d6c91c.aspx
+            description: 乐府诗、浪漫主义
+            content:
+              - 天宝元年
+              - 这首诗是袭用乐府旧题，意在送友人入蜀。诗人以浪漫主义的手法，展开丰富的想象，艺术地再现了蜀道峥嵘，突兀，强悍、崎岖等奇丽惊险和不可凌越的磅礴气势，借以歌咏蜀地山川的壮秀，显示出祖国山河的雄伟壮丽。
+              - 至于本诗是否有更深的寓意，历代有各种不同看法。然而就诗论诗，不一定强析有寓意。但从诗中，“所守或匪亲，化为狼与豺”看，却是在写蜀地山川峻美的同时，告诫当局，蜀地险要，应好好用人防守。
+              - 诗采用律体与散文间杂，文句参差，笔意纵横，豪放洒脱。全诗感情强烈，一唱三叹，回环反复，读来令人心潮激荡。
+          - title: 将进酒
+            link: https://so.gushiwen.cn/shiwenv_ee16df5673bc.aspx
+            description: 乐府七言歌行
+            content:
+              - 开元二十二年
+              - 这首诗是诗人当时和友人岑勋在嵩山另一老友元丹丘的颍阳山居作客，作者正值仕途遇挫之际，所以借酒兴诗，来了一次酣畅淋漓的抒发。在这首诗里，李白“借题发挥”，借酒消愁，感叹人生易老，抒发了自己怀才不遇的心情。
+              - 这首诗十分形象的体现了李白桀骜不驯的性格：对自己充满自信、孤高自傲、热情豪放，“天生我材必有用”、“人生得意须尽欢”。全诗气势豪迈，感情豪放，言语流畅，具有极强的感染力。李白咏酒的诗歌非常能体现他的个性，思想内容深沉，艺术表现成熟。《将进酒》即为其代表作。
+      - title: 工作经验
+        icon: laptop-code
+        sections:
+          - title: 大唐翰林供奉
+            description: 743 - 744
+            content:
+              - 赐宫锦袍。暮春，兴庆池牡丹盛开，玄宗与杨玉环同赏，李白又奉诏作《清平调》。对御用文人生活日渐厌倦，始纵酒以自昏秽。
+              - 与贺知章等人结“酒中八仙”之游，玄宗呼之不朝。尝奉诏醉中起草诏书，引足令高力士脱靴，宫中人恨之，谗谤于玄宗，玄宗疏之，后玄宗赐金放还。
+      - title: 荣誉奖项
+        icon: trophy
+        list: true
+        content:
+          - 诗仙
+          - 酒中八仙
+      - title: 个人小结
+        icon: ranking-star
+        content:
+          - 为人爽朗大方，乐于交友，爱好饮酒作诗，名列“酒中八仙”  。曾经得到唐玄宗李隆基赏识，担任翰林供奉， 赐金放还，游历全国，先后迎娶宰相许圉师、宗楚客的孙女。唐肃宗即位后，卷入永王之乱，流放夜郎，辗转到达当涂县令李阳冰家。上元二年，去世，时年六十二。
+          - 著有《李太白集》，代表作有《望庐山瀑布》《行路难》《蜀道难》《将进酒》《早发白帝城》等。 李白所作词赋，就其开创意义及艺术成就而言，享有极为崇高的地位，后世誉为“诗仙”，与诗圣杜甫并称“李杜”。
+
+search:
+  path: search.json
+  enable: true
+  field: post
+  content: true
