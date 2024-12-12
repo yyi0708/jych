@@ -5,6 +5,6 @@ tags:
     - 项目
     - 脚手架
 category: project
-timeline: life
+timeline: project
 abstract: 结合学习OOP思想，写一个脚手架，加快开发重复性的节奏
 ---
