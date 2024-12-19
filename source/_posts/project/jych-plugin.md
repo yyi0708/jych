@@ -112,3 +112,6 @@ else：
 - 支持导入、导出，自定义布局、数据，打包后缀.jych 文件输出
 - 支持显示/隐藏哲学-易经模块
 - 支持可自定义适配区域大小，并存储
+
+
+![jych静态图](/assets/front-end/jych-plugin-ui.png)
